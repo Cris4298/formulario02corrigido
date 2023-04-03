@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Autist Abra Mente</title>
+    <style>
+		body {
+			background-color: #f5f5f5;
+			font-family: Arial, sans-serif;
+			color: #333;
+			line-height: 1.5;
+		}
+		
+		h1 {
+			font-size: 2em;
+			text-align: center;
+			margin-top: 50px;
+		}
+		
+		p {
+			font-size: 1.2em;
+			margin-bottom: 20px;
+		}
+		
+		a {
+			color: #007bff;
+			text-decoration: none;
+			border-bottom: 1px solid #007bff;
+		}
+		
+		button {
+			background-color: #007bff;
+			color: #fff;
+			border: none;
+			padding: 10px 20px;
+			font-size: 1.2em;
+			border-radius: 5px;
+			cursor: pointer;
+		}
+		
+		button:hover {
+			background-color: #0062cc;
+		}
+		
+		.container {
+			max-width: 1200px;
+			margin: 0 auto;
+			padding: 50px;
+		}
+		
+		.row {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
+			margin-bottom: 50px;
+		}
+		
+		.col {
+			flex-basis: calc(33.33% - 20px);
+			background-color: #fff;
+			padding: 20px;
+			border-radius: 5px;
+			box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+			margin-bottom: 20px;
+		}
+		
+		@media screen and (max-width: 768px) {
+			.col {
+				flex-basis: calc(50% - 20px);
+			}
+		}
+		
+		@media screen and (max-width: 576px) {
+			.col {
+				flex-basis: 100%;
+			}
+		}
+	</style>
+    <div class="content">
+        <h1>Bem-vindo ao Autist Abra Mente</h1>
+        <button class="button" id="whoWeAreButton">Quem somos</button>
+        <div class="subtitles" id="whoWeAreSubtitles">
+            <h2>Quem somos</h2>
+            <p>Somos uma organização sem fins lucrativos que tem como objetivo ajudar pessoas com autismo e suas famílias.</p>
+            <div class="back">
+                <button>Fechar</button>
+            </div>
+        </div>
+    
+        <button class="button" id="ourCollaboratorsButton">Nossos colaboradores</button>
+        <div class="subtitles" id="ourCollaboratorsSubtitles">
+            <h2>Nossos colaboradores</h2>
+            <p>Contamos com uma equipe de profissionais experientes e comprometidos com a causa do autismo.</p>
+            <div class="back">
+                <button>Fechar</button>
+            </div>
+        </div>
+    
+        <button class="button" id="ourLocationButton">Nosso local</button>
+        <div class="subtitles" id="ourLocationSubtitles">
+            <h2>Nosso local</h2>
+            <p>Estamos localizados na Rua das Flores, 123, bairro Jardim das Rosas, cidade de São Paulo.</p>
+            <div class="back">
+                <button>Fechar</button>
+            </div>
+        </div>
+    
+        <button class="button" id="workWithUsButton">Trabalhe conosco</button>
+        <div class="subtitles" id="workWithUsSubtitles">
+            <h2>Trabalhe conosco</h2>
+            <p>Estamos sempre em busca de novos talentos que queiram contribuir para a nossa causa. Envie o seu currículo para o e-mail: vagas@autismoh
+  </head>
+</html>
